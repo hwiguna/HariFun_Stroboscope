@@ -1,0 +1,60 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Module:Arduino_Nano_v3.x A?
+U 1 1 5E6D06FA
+P 4900 3600
+F 0 "A?" H 4900 2511 50  0000 C CNN
+F 1 "Arduino_Nano_v3.x" H 4900 2420 50  0000 C CNN
+F 2 "Module:Arduino_Nano" H 4900 3600 50  0001 C CIN
+F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 4900 3600 50  0001 C CNN
+	1    4900 3600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT RV?
+U 1 1 5E6D1575
+P 3900 3600
+F 0 "RV?" H 3831 3646 50  0000 R CNN
+F 1 "R_POT" H 3831 3555 50  0000 R CNN
+F 2 "" H 3900 3600 50  0001 C CNN
+F 3 "~" H 3900 3600 50  0001 C CNN
+	1    3900 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5E6D2834
+P 5000 2350
+F 0 "#PWR?" H 5000 2200 50  0001 C CNN
+F 1 "+12V" H 5015 2523 50  0000 C CNN
+F 2 "" H 5000 2350 50  0001 C CNN
+F 3 "" H 5000 2350 50  0001 C CNN
+	1    5000 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:IRLB8721PBF Q?
+U 1 1 5E6D3080
+P 5800 4300
+F 0 "Q?" H 6004 4346 50  0000 L CNN
+F 1 "IRLB8721PBF" H 6004 4255 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 6050 4225 50  0001 L CIN
+F 3 "http://www.infineon.com/dgdl/irlb8721pbf.pdf?fileId=5546d462533600a40153566056732591" H 5800 4300 50  0001 L CNN
+	1    5800 4300
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
